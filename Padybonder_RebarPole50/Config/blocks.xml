@@ -36,6 +36,7 @@
 	</block>
 		<block name="rebarFramePillar50">
 			<property name="Extends" value="rebarFrameMaster"/>
+			<property name="CustomIcon" value="rebarFramePillar50" />
 			<property name="CreativeMode" value="Player"/>
 			<property name="Shape" value="New"/>
 			<property name="Path" value="solid"/>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
+	<!-- Temporary icon -->
 	<ModInfo>
 		<Name value="Padybonder_RebarPole50" />
 		<Description value="Adds a pilar 50 rebar frame" />
