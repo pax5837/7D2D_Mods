@@ -1,0 +1,8 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="rebarFramePillar50" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
+			<ingredient name="unit_iron" count="5"/>
+			<ingredient name="unit_clay" count="1"/>
+		</recipe>
+	</append>
+</configs>

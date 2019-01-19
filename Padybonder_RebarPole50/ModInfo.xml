@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Padybonder_RebarPole50" />
+		<Description value="Adds a pilar 50 rebar frame" />
+		<Author value="Padybonder" />
+		<Version value="1.0.0" />
+	</ModInfo>
+</xml>

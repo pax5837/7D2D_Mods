@@ -1,0 +1,55 @@
+<configs>
+	<append xpath="/blocks">
+	<block name="steelPillar50">
+		<property name="Extends" value="steelMaster"/>
+		<property name="Shape" value="New"/>
+		<property name="Path" value="solid"/>
+		<property name="Model" value="Pole0.5m"/>
+		<property name="SortOrder2" value="0732"/> <!-- SortShape -->
+		<property name="Texture" value="356"/>
+		<property name="UseGlobalUV" value="Local"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="112"/>
+		<property name="DowngradeBlock" value="rConcretePillar50"/>
+	</block>
+	<block name="rConcretePillar50">
+		<property name="Extends" value="rConcreteMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="Shape" value="New"/>
+		<property name="Path" value="solid"/>
+		<property name="Model" value="Pole0.5m"/>
+		<property name="SortOrder2" value="0732"/> <!-- SortShape -->
+		<property name="UseGlobalUV" value="Local"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="91"/>
+		<property class="UpgradeBlock"> <property name="ToBlock" value="steelPillar50"/> </property>
+	</block>
+	<block name="pouredRConcretePillar50">
+		<property name="Extends" value="pouredRConcreteMaster"/>
+		<property name="CustomIcon" value="pouredConcretePillar50"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="Shape" value="New"/>
+		<property name="Path" value="solid"/>
+		<property name="Model" value="Pole0.5m"/>
+		<property name="SortOrder2" value="0732"/> <!-- SortShape -->
+		<property name="UseGlobalUV" value="Local"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="162"/>
+		<property name="UpgradeRated.ToBlock" value="rConcretePillar50"/>
+	</block>
+		<block name="rebarFramePillar50">
+			<property name="Extends" value="rebarFrameMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Pole0.5m"/> <!-- needs cutout -->
+			<property name="SortOrder2" value="0732"/> <!-- SortShape -->
+			<property name="UseGlobalUV" value="Local"/>
+			<property name="CanPickup" value="true"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="pouredRConcretePillar50"/>
+				<property name="Item" value="resourceConcreteMix"/>
+				<property name="ItemCount" value="10"/>
+				<property name="UpgradeHitCount" value="4"/>
+			</property>
+			<property name="CustomUpgradeSound" value="place_block_concrete"/>
+		</block>
+	</append>
+</configs>

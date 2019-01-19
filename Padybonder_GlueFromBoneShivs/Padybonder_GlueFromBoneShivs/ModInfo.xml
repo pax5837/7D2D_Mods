@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Padybonder_GlueFromBoneShivs" />
+		<Description value="A recipe to make glue from (old) bone shivs" />
+		<Author value="Padybonder" />
+		<Version value="1.0.0" />
+	</ModInfo>
+</xml>

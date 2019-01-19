@@ -1,0 +1,5 @@
+<configs>
+
+	<set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']/entity[@name='invisibleAnimal']/@prob">0.5</set>
+	<set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']/entity[@name='invisibleAnimal']/@prob">0.3</set>
+</configs>

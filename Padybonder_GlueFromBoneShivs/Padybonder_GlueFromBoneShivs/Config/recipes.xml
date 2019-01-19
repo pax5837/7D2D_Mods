@@ -1,0 +1,8 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="resourceGlue" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="meleeBoneShiv" count="2"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+	</append>
+</configs>

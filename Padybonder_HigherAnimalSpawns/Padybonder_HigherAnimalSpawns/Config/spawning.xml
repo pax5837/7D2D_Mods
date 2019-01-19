@@ -1,0 +1,8 @@
+<configs>
+
+	<set xpath="/spawning/biome/spawn[@entitygroup='FriendlyAnimalsForest']/@maxcount">8</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='FriendlyAnimalsForest']/@respawndelay">1</set>
+	
+	<set xpath="/spawning/biome/spawn[@entitygroup='FriendlyAnimalsSnow']/@maxcount">8</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='FriendlyAnimalsSnow']/@respawndelay">1</set>
+</configs>
